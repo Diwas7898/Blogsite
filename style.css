@@ -1,0 +1,38 @@
+body{
+    background-color:light-white; 
+}
+
+.brand-gradient{
+ background-image: linear-gradient(to right top, #001b44, #005187, #008a9b, #00c074, #a8eb12);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
+}
+
+.banner-holder, .main-page-header{
+   background-image: url(img/Banner.jpg);
+   background-size: cover;
+   height:400px;
+   background-position: bottom;
+   
+   
+   
+}
+
+.custom-nav{
+    backdrop-filter:blur(8px);
+} 
+
+.custom-nav:hover{
+    background-color:bule;
+}
+
+
+
+
+
+
+
+
+
+
